@@ -16,10 +16,6 @@ GRID_COLOR = (128, 0, 128) # purple
 GRID_WIDTH = 1
 BACKGROUND_COLOR = (159, 43, 104) #amaranth
 
-LETTER_COLOR = (255, 0, 255)
-CHIP_FONT = 400
-chip_font = pygame.font.Font(None, 400)
-
 mole_image = pygame.image.load("mole.png")
 
 def initialize_board():
